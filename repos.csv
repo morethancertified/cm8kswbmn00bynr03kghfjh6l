@@ -1,0 +1,7 @@
+name,description,auto_init,visibility,gitignore_template,branch_name
+infra-dev,Infrastructure Dev Repository,true,private,Terraform,staging
+infra-prod,Infrastructure Prod Repository,true,public,Terraform,staging
+app-dev,Application Dev Repository,true,private,Node,development
+app-prod,Application Prod Repository,true,public,Node,main
+web-dev,Web Development Repository,true,private,HTML,development
+web-prod,Web Production Repository,true,public,HTML,main
