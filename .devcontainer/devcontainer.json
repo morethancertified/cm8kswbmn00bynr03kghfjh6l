@@ -22,9 +22,6 @@
     "deletecmd": "echo \"alias mtc-delete='gh cs delete -c ${CODESPACE_NAME}'\" >> ~/.bashrc"
   },
   "secrets": {
-    "GITHUB_TOKEN": {
-      "description": "Optionally provide the Github token for full Terraform access."
-    },
     "AWS_ACCESS_KEY_ID": {
       "description": "AWS Access Key ID if the lab requires it."
     },
